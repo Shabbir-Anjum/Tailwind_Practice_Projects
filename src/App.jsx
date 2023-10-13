@@ -1,4 +1,6 @@
 import Card from "./components/Card";
+import Card2 from "./components/Card2";
+import Card3 from "./components/Card3";
 import InputBox from "./components/InputBox";
 
 
@@ -13,6 +15,10 @@ function App() {
         <InputBox index='2' hover='hover:bg-purple-500' color="hover:text-white" bgcolor=" hover:bg-red-500" opacity=" hover:opacity-30"/>
       
       <Card/>
+      <Card2/>
+      </div>
+      <div className="bg-blue-300">
+      <Card3/>
       </div>
     </>
   );

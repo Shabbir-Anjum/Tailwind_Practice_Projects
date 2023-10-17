@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import Card2 from "./components/Card2";
 import Card3 from "./components/Card3";
+import DropDown from "./components/DropDown";
 import InputBox from "./components/InputBox";
 import Navbar from "./components/Navbar";
 
@@ -21,7 +22,9 @@ function App() {
       <div className="bg-blue-300">
       <Card3/>
       </div>
+      <DropDown/>
     </>
+
   );
 }
 

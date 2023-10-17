@@ -12,7 +12,7 @@ export default function Card3() {
           <img className="w-full  " src="../src/images/shabbir.png" />
         </div>
       </div>
-     
+
     </>
   );
 }
